@@ -11,6 +11,8 @@ title: ""
 - Applied Multivariate Statistics (Spring 2025)
 - Causality (Autumn 2024)
 - Computational Statistics (Spring 2024)
+## Supervision
+- Master Thesis: Roberto Desponds, "Influence of Treatments for breast cancer on protein expressions" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
 
 <br><br>
 
