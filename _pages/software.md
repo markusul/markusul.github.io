@@ -3,7 +3,7 @@ title: ""
 permalink: /software/
 ---
 
-# SDModels
+# SDModels <a href="https://markusul.github.io/SDModels/"><img src="../images/software/SDModels.png" align="right" height="175" alt="SDModels website" /></a>
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/SDModels)](https://CRAN.R-project.org/package=SDModels)
 [![R-CMD-check](https://github.com/markusul/SDModels/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/SDModels/actions/workflows/R-CMD-check.yaml)
@@ -24,3 +24,18 @@ Bühlmann (2025)) and Spectrally Deconfounded Random Forests
 (SDForest)(Ulmer, Scheidegger, and Bühlmann (2025)).
 
 ![](../images/software/confModel.png)
+
+# Ancestor Regression <a href="http://www.markus-ulmer.ch/AncReg/"><img src="../images/software/AncReg.png" align="right" height="175" alt="AncReg website" /></a>
+
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/AncReg)](https://CRAN.R-project.org/package=AncReg)
+[![R-CMD-check](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml)
+![CRAN Downloads
+overall](https://cranlogs.r-pkg.org/badges/grand-total/AncReg?color=brightgreen)
+
+[Ancestor Regression (AncReg)](https://markusul.github.io/AncReg/) is a package with methods to test for
+ancestral connections in linear structural equation models (C.
+Schultheiss and Bühlmann (2023)) and structural vector autoregressive
+models (Christoph Schultheiss, Ulmer, and Bühlmann (2025)). Ancestor
+Regression provides explicit error control for false causal discovery,
+at least asymptotically. To have power, however, it relies on
+non-Gaussian distributions.
