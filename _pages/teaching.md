@@ -15,6 +15,7 @@ title: ""
 
 ## Supervision
 - Master Thesis: Roberto Desponds, "Influence of Treatments for breast cancer on protein expressions" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
+- Master Thesis: Michael Vollenweider, "A Distributional Autoencoder Framework for Combinatorial Extrapolation on Biological Perturbation Data" (2025), Joint supervision with Prof. Dr. Peter Bühlmann and Marin Sola.
 
 <br><br>
 
