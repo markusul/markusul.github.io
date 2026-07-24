@@ -3,6 +3,23 @@ title: ""
 permalink: /software/
 ---
 
+# Drug-Prot <a href="https://ulme.shinyapps.io/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" height="175" alt="DrugProt website" /></a>
+
+[Drug-Prot](https://ulme.shinyapps.io/DrugProt/) is an interactive R Shiny application
+for querying statistical evidence of drug effects, drug–drug interactions, and
+directed temporal protein dependencies in a large-scale perturbation proteomics dataset.
+ 
+Drug-Prot lets you specify a set of proteins of interest and returns, for that set:
+corrected p-values for the effect of each of 63 single drugs and 59 drug combinations
+on protein expression at 6, 24, and 48 hours post-treatment; and a directed temporal
+dependency network linking the queried proteins to any other protein in the dataset.
+Because multiple-testing correction is applied only over the queried set, focused
+analyses gain substantial power relative to proteome-wide searches.
+ 
+All statistical evidence (approximately 60 million p-values across 5,392 proteins,
+122 treatments, and three time points) is precomputed, so queries are near-instantaneous
+and the underlying proteomic dataset is never needed at query time.
+
 # SDModels <a href="https://markusul.github.io/SDModels/"><img src="../images/software/SDModels.png" align="right" height="175" alt="SDModels website" /></a>
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/SDModels)](https://CRAN.R-project.org/package=SDModels)
