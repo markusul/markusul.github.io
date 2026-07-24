@@ -42,7 +42,7 @@ Bühlmann (2025)) and Spectrally Deconfounded Random Forests
 
 ![](../images/software/confModel.png)
 
-# Ancestor Regression <a href="http://www.markus-ulmer.ch/AncReg/"><img src="../images/software/AncReg.png" align="right" style="height: 75px !important; width: auto; vertical-align: middle;" alt="AncReg website" /></a>
+# Ancestor Regression <a href="http://www.markus-ulmer.ch/AncReg/"><img src="../images/software/AncReg.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="AncReg website" /></a>
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/AncReg)](https://CRAN.R-project.org/package=AncReg)
 [![R-CMD-check](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml)
