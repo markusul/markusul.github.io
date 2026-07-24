@@ -3,7 +3,7 @@ title: ""
 permalink: /software/
 ---
 
-# Drug-Prot <a href="https://ulme.shinyapps.io/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" height="75" alt="DrugProt website" /></a>
+# Drug-Prot <a href="https://ulme.shinyapps.io/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 75px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
 
 [Drug-Prot](https://ulme.shinyapps.io/DrugProt/) is an interactive R Shiny application
 for querying statistical evidence of drug effects, drug–drug interactions, and
