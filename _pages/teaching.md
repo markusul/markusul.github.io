@@ -14,8 +14,9 @@ title: ""
 - Computational Statistics (Spring 2024)
 
 ## Supervision
-- Master Thesis: Roberto Desponds, "Influence of Treatments for breast cancer on protein expressions" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
+- Master Thesis: Luisa Tschannen, "Bayesian Experimental Design to Detect Proteomic Drug Interactions: A Feasibility Study in a Simulation Framework" (2026), Joint supervision with Prof. Dr. Peter Bühlmann.
 - Master Thesis: Michael Vollenweider, "A Distributional Autoencoder Framework for Combinatorial Extrapolation on Biological Perturbation Data" (2025), Joint supervision with Prof. Dr. Peter Bühlmann and Marin Sola.
+- Master Thesis: Roberto Desponds, "Influence of Treatments for breast cancer on protein expressions" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
 
 <br><br>
 
