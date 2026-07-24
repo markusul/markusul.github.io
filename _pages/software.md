@@ -3,7 +3,7 @@ title: ""
 permalink: /software/
 ---
 
-# Drug-Prot <a href="https://ulme.shinyapps.io/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 75px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
+# Drug-Prot <a href="https://ulme.shinyapps.io/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
 
 [Drug-Prot](https://ulme.shinyapps.io/DrugProt/) is an interactive R Shiny application
 for querying statistical evidence of drug effects, drug–drug interactions, and
@@ -20,7 +20,7 @@ All statistical evidence (approximately 60 million p-values across 5,392 protein
 122 treatments, and three time points) is precomputed, so queries are near-instantaneous
 and the underlying proteomic dataset is never needed at query time.
 
-# SDModels <a href="https://markusul.github.io/SDModels/"><img src="../images/software/SDModels.png" align="right" height="175" alt="SDModels website" /></a>
+# SDModels <a href="https://markusul.github.io/SDModels/"><img src="../images/software/SDModels.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="SDModels website" /></a>
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/SDModels)](https://CRAN.R-project.org/package=SDModels)
 [![R-CMD-check](https://github.com/markusul/SDModels/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/SDModels/actions/workflows/R-CMD-check.yaml)
@@ -42,7 +42,7 @@ Bühlmann (2025)) and Spectrally Deconfounded Random Forests
 
 ![](../images/software/confModel.png)
 
-# Ancestor Regression <a href="http://www.markus-ulmer.ch/AncReg/"><img src="../images/software/AncReg.png" align="right" height="175" alt="AncReg website" /></a>
+# Ancestor Regression <a href="http://www.markus-ulmer.ch/AncReg/"><img src="../images/software/AncReg.png" align="right" style="height: 75px !important; width: auto; vertical-align: middle;" alt="AncReg website" /></a>
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/AncReg)](https://CRAN.R-project.org/package=AncReg)
 [![R-CMD-check](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml)
