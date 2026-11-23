@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "CV"
-hide_title: true
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
+title: "CV"
+hide_title: true
 ---
 
 Work experience
@@ -28,3 +26,4 @@ Education
 ======
 * 2023, MSc. in Statistics, ETH Zurich
 * 2019, BSc. in Industrial Engineering with specialization in Financial Mathematics, Zurich University of Applied Science, School of Engineering
+* 2015, EFZ. Fleischfachmann
