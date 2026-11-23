@@ -15,8 +15,11 @@ title: ""
 
 ## Supervision
 - Master Thesis: Luisa Tschannen, "Bayesian Experimental Design to Detect Proteomic Drug Interactions: A Feasibility Study in a Simulation Framework" (2026), Joint supervision with Prof. Dr. Peter Bühlmann.
+- Semester Thesis: Otto Grøn Roepstorff, "High-dimensional protein analysis for breast cancer" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
+- Semester Thesis: Luisa Tschannen, "Quantifying Drug Interaction Strength in Breast Cancer Proteomic Data" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
 - Master Thesis: Michael Vollenweider, "A Distributional Autoencoder Framework for Combinatorial Extrapolation on Biological Perturbation Data" (2025), Joint supervision with Prof. Dr. Peter Bühlmann and Marin Sola.
 - Master Thesis: Roberto Desponds, "Influence of Treatments for breast cancer on protein expressions" (2025), Joint supervision with Prof. Dr. Peter Bühlmann.
+- Semester Thesis: Roberto Desponds, "Synthetic Environments for Causal Discovery" (2024), Joint supervision with Prof. Dr. Peter Bühlmann.
 
 <br><br>
 
