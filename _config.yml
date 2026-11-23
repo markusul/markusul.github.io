@@ -19,7 +19,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -57,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 mastodon:
-  username               :# "fosstodon.org/@jayrobw"
+  username               :
 twitter:
   username               : 
 facebook:
@@ -235,7 +234,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Zurich
 
 
 # Plugins
