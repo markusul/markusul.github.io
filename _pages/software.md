@@ -6,16 +6,25 @@ permalink: /software/
 
 # Drug-Prot <a href="https://markus-ulmer.ch/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
 
-[Drug-Prot](https://markus-ulmer.ch/DrugProt/) is an interactive R Shiny application for querying statistical evidence of drug effects, drug–drug interactions, and directed temporal protein dependencies in a large-scale perturbation proteomics dataset.
+[Drug-Prot](https://markus-ulmer.ch/DrugProt/) is a web application for exploring a large perturbation proteomics experiment in breast cancer.
+In perturbation proteomics, cells are treated with drugs, and the abundance of thousands of proteins is measured afterwards.
+The experiment behind Drug-Prot covers 18 breast cancer cell lines, 63 single drugs, and 59 drug pairs, with 5,078 proteins measured 6, 24, and 48 hours after treatment.
 
 <a href="https://markus-ulmer.ch/DrugProt/"><img src="../images/software/drugprot-cover.jpg" alt="Two drugs act on a cell. Three rings show the protein expression at 6, 24 and 48 hours with the significant dependencies between them, and a panel shows the drug effects on one protein." style="width: 100%;" /></a>
 
-You specify a set of proteins of interest, and Drug-Prot returns two results for that set.
-The first is a corrected p-value for the effect of each of 63 single drugs and 59 drug combinations on protein expression at 6, 24, and 48 hours after treatment.
-The second is a directed temporal dependency network that links the queried proteins to any other protein in the dataset.
-Multiple-testing correction is applied only over the queried set, so focused analyses have more power than proteome-wide searches.
+You enter the proteins you care about, and Drug-Prot answers three questions.
 
-All statistical evidence (approximately 55 million p-values across 5,078 proteins, 122 treatments, and three time points) is precomputed, so queries return almost instantly and the underlying proteomic dataset is never needed at query time.
+- Which drugs change the abundance of these proteins, and at which time point?
+- For which drug pairs does the combined effect differ from the sum of the two single-drug effects?
+- Which other proteins change before or after yours?
+
+Every answer comes with a p-value that is corrected only for the proteins you asked about.
+A focused question therefore has more power than a search across all 5,078 proteins.
+The drug effects have a causal interpretation, because the experimenter assigned the treatments.
+The dependencies between proteins are associations ordered in time, and they serve to generate hypotheses.
+
+Drug-Prot runs in the browser and needs no installation or access to the raw data.
+Two built-in examples show what a query looks like, and the [preprint](https://doi.org/10.64898/2026.06.17.732914) describes the methods.
 
 # SDModels <a href="https://markusul.github.io/SDModels/"><img src="../images/software/SDModels.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="SDModels website" /></a>
 
