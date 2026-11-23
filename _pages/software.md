@@ -6,20 +6,16 @@ permalink: /software/
 
 # Drug-Prot <a href="https://markus-ulmer.ch/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
 
-[Drug-Prot](https://markus-ulmer.ch/DrugProt/) is an interactive R Shiny application
-for querying statistical evidence of drug effects, drug–drug interactions, and
-directed temporal protein dependencies in a large-scale perturbation proteomics dataset.
- 
-Drug-Prot lets you specify a set of proteins of interest and returns, for that set:
-corrected p-values for the effect of each of 63 single drugs and 59 drug combinations
-on protein expression at 6, 24, and 48 hours post-treatment; and a directed temporal
-dependency network linking the queried proteins to any other protein in the dataset.
-Because multiple-testing correction is applied only over the queried set, focused
-analyses gain substantial power relative to proteome-wide searches.
- 
-All statistical evidence (approximately 55 million p-values across 5'078 proteins,
-122 treatments, and three time points) is precomputed, so queries are near-instantaneous
-and the underlying proteomic dataset is never needed at query time.
+[Drug-Prot](https://markus-ulmer.ch/DrugProt/) is an interactive R Shiny application for querying statistical evidence of drug effects, drug–drug interactions, and directed temporal protein dependencies in a large-scale perturbation proteomics dataset.
+
+<a href="https://markus-ulmer.ch/DrugProt/"><img src="../images/software/drugprot-cover.jpg" alt="Two drugs act on a cell. Three rings show the protein expression at 6, 24 and 48 hours with the significant dependencies between them, and a panel shows the drug effects on one protein." style="width: 100%;" /></a>
+
+You specify a set of proteins of interest, and Drug-Prot returns two results for that set.
+The first is a corrected p-value for the effect of each of 63 single drugs and 59 drug combinations on protein expression at 6, 24, and 48 hours after treatment.
+The second is a directed temporal dependency network that links the queried proteins to any other protein in the dataset.
+Multiple-testing correction is applied only over the queried set, so focused analyses have more power than proteome-wide searches.
+
+All statistical evidence (approximately 55 million p-values across 5,078 proteins, 122 treatments, and three time points) is precomputed, so queries return almost instantly and the underlying proteomic dataset is never needed at query time.
 
 # SDModels <a href="https://markusul.github.io/SDModels/"><img src="../images/software/SDModels.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="SDModels website" /></a>
 
