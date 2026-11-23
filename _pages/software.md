@@ -23,23 +23,14 @@ All statistical evidence (approximately 55 million p-values across 5,078 protein
 [![R-CMD-check](https://github.com/markusul/SDModels/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/SDModels/actions/workflows/R-CMD-check.yaml)
 ![CRAN Downloads overall](https://cranlogs.r-pkg.org/badges/grand-total/SDModels?color=brightgreen)
 
- [Spectrally Deconfounded Models (SDModels)](https://markusul.github.io/SDModels/) is a package with methods to
-screen for and analyze non-linear sparse direct effects in the presence
-of unobserved confounding using the spectral deconfounding techniques
-(Ćevid, Bühlmann, and Meinshausen (2020), Guo, Ćevid, and Bühlmann
-(2022)). These methods have been shown to be a good estimate for the
-true direct effect if we observe many covariates, e.g., high-dimensional
-settings, and we have fairly dense confounding. Even if the assumptions
-are violated, it seems like there is not much to lose, and the SDModels
-will, in general, estimate a function closer to the true one than
-classical least squares optimization. SDModels provides software for
-Spectrally Deconfounded Additive Models (SDAMs) (Scheidegger, Guo, and
-Bühlmann (2025)) and Spectrally Deconfounded Random Forests
-(SDForest)(Ulmer, Scheidegger, and Bühlmann (2025)).
+[SDModels](https://markusul.github.io/SDModels/) is an R package for estimating sparse nonlinear direct effects when unobserved confounders are present.
+It builds on spectral deconfounding (Ćevid, Bühlmann, and Meinshausen (2020), Guo, Ćevid, and Bühlmann (2022)), a transformation of the data that reduces the bias from confounders affecting many covariates.
+The estimates are reliable when the data has many covariates and the confounding is dense.
+The package implements Spectrally Deconfounded Additive Models (SDAMs) (Scheidegger, Guo, and Bühlmann (2025)) and Spectrally Deconfounded Random Forests (SDForest) (Ulmer, Scheidegger, and Bühlmann (2026)).
 
 ![](../images/software/confModel.png)
 
-# Ancestor Regression <a href="http://www.markus-ulmer.ch/AncReg/"><img src="../images/software/AncReg.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="AncReg website" /></a>
+# Ancestor Regression <a href="https://markusul.github.io/AncReg/"><img src="../images/software/AncReg.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="AncReg website" /></a>
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/AncReg)](https://CRAN.R-project.org/package=AncReg)
 [![R-CMD-check](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markusul/AncReg/actions/workflows/R-CMD-check.yaml)
