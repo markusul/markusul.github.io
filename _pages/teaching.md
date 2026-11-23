@@ -9,6 +9,7 @@ title: ""
 - Computational Statistics: Bagging and Boosting for 3h (Spring 2024)
 
 ## Teaching Assistant
+- Applied Statistical Regression (Autumn 2026)
 - Applied Multivariate Statistics (Spring 2025)
 - Causality (Autumn 2024)
 - Computational Statistics (Spring 2024)
