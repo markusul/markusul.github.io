@@ -72,16 +72,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
-# Analytics
-#analytics:
-#  provider               : "goatcounter" # false (default), "google", "google-universal", "custom", "goatcounter"
-#  google:
-#    tracking_id          : 
-#  goatcounter:
-#    code		 : jayrobwilliams
-
-
 # Site Author
 author:
   name             : "Markus Ulmer"
@@ -93,7 +83,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-7783-8475"
   googlescholar    : https://scholar.google.com/citations?user=P7zvodEAAAAJ&hl=en
   email            : "markus.ulmer@stat.math.ethz.ch"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -106,13 +96,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         : "markus-ulmer"
   mastodon         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : 
@@ -194,12 +184,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -240,23 +224,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _research
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

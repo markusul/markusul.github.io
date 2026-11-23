@@ -3,9 +3,9 @@ title: ""
 permalink: /software/
 ---
 
-# Drug-Prot <a href="https://ulme.shinyapps.io/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
+# Drug-Prot <a href="https://markus-ulmer.ch/DrugProt/"><img src="../images/software/drugprot-mark.png" align="right" style="height: 175px !important; width: auto; vertical-align: middle;" alt="DrugProt website" /></a>
 
-[Drug-Prot](https://ulme.shinyapps.io/DrugProt/) is an interactive R Shiny application
+[Drug-Prot](https://markus-ulmer.ch/DrugProt/) is an interactive R Shiny application
 for querying statistical evidence of drug effects, drug–drug interactions, and
 directed temporal protein dependencies in a large-scale perturbation proteomics dataset.
  
@@ -16,7 +16,7 @@ dependency network linking the queried proteins to any other protein in the data
 Because multiple-testing correction is applied only over the queried set, focused
 analyses gain substantial power relative to proteome-wide searches.
  
-All statistical evidence (approximately 60 million p-values across 5,392 proteins,
+All statistical evidence (approximately 55 million p-values across 5'078 proteins,
 122 treatments, and three time points) is precomputed, so queries are near-instantaneous
 and the underlying proteomic dataset is never needed at query time.
 
