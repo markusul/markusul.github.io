@@ -9,8 +9,6 @@ redirect_from:
 
 Work experience
 ======
-* 2024-now: PhD Student at [Seminar for Statistics, ETH Zurich](https://math.ethz.ch/sfs).
-  * Supervised by [Prof. Peter Bühlmann](https://people.math.ethz.ch/~peterbu/)
 
 * 2024-now: PhD Student at [Seminar for Statistics, ETH Zurich](https://math.ethz.ch/sfs).
   * Supervised by [Prof. Peter Bühlmann](https://people.math.ethz.ch/~peterbu/)
