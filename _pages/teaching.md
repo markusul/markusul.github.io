@@ -31,7 +31,7 @@ hide_title: true
 - Statistical Data Mining for 8h (Spring 2023)
 
 ## Teaching Assistant
-- Various statistics courses in the [Bachelor of Engineering and Management](https://www.zhaw.ch/en/engineering/study/bachelors-degree-programmes/engineering-and-management) (2019-2024)
+- Various statistics courses in the [Bachelor of Engineering and Management](https://www.zhaw.ch/en/engineering/study/bachelors-degree-programmes/engineering-and-management) (2019-2023)
 
 ## Supervision
 - Bachelor Thesis: Moritz Rüegsegger and Nicolas Nyfeler, "Agentenbasiertes Testverfahren zur Reduktion der Testzeit von integrierten Schaltkreisen" (2023), Joint supervision with Dr. Christoph Hofer.

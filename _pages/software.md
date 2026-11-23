@@ -46,10 +46,7 @@ The package implements Spectrally Deconfounded Additive Models (SDAMs) (Scheideg
 ![CRAN Downloads
 overall](https://cranlogs.r-pkg.org/badges/grand-total/AncReg?color=brightgreen)
 
-[Ancestor Regression (AncReg)](https://markusul.github.io/AncReg/) is a package with methods to test for
-ancestral connections in linear structural equation models (C.
-Schultheiss and Bühlmann (2023)) and structural vector autoregressive
-models (Christoph Schultheiss, Ulmer, and Bühlmann (2025)). Ancestor
-Regression provides explicit error control for false causal discovery,
-at least asymptotically. To have power, however, it relies on
-non-Gaussian distributions.
+[AncReg](https://markusul.github.io/AncReg/) is an R package that tests for ancestral connections between variables, that is, whether one variable is a direct or indirect cause of another.
+It covers linear structural equation models (Schultheiss and Bühlmann (2023)) and structural vector autoregressive models for time series (Schultheiss, Ulmer, and Bühlmann (2025)).
+The tests control the rate of false causal discoveries asymptotically.
+They draw their power from non-Gaussian distributions in the data.
