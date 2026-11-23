@@ -1,6 +1,7 @@
 ---
 permalink: /teaching/
-title: ""
+title: "Teaching"
+hide_title: true
 ---
 
 # Teaching at ETH Zürich

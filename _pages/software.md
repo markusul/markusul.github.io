@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Software"
+hide_title: true
 permalink: /software/
 ---
 
