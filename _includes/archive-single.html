@@ -72,6 +72,12 @@
       {% if post.github %}
         <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
       {% endif %}
+      {% if post.app %}
+        <a href="{{ post.app }}"><i class="fas fa-fw fa-desktop zoom" aria-hidden="true" title="Web application"></i></a>
+      {% endif %}
+      {% if post.package %}
+        <a href="{{ post.package }}"><i class="fas fa-fw fa-cube zoom" aria-hidden="true" title="R package"></i></a>
+      {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
