@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "PhD student at the Seminar for Statistics ETH Zurich"
 author_profile: true
 redirect_from: 
   - /about/
